@@ -12,6 +12,9 @@ gem "activerecord", "~> 6.1"
 # https://github.com/sinatra-activerecord/sinatra-activerecord
 gem "sinatra-activerecord"
 
+   gem 'wdm', '>= 0.1.0'
+
+gem "puma"
 # Run common tasks from the command line
 # https://github.com/ruby/rake
 gem "rake"
